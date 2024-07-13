@@ -1,0 +1,197 @@
+/* General Footer Styles */
+footer {
+    background-color: #1a202c; /* bg-gray-900 */
+    color: #a0aec0; /* text-gray-400 */
+    padding: 0rem 0;
+}
+
+footer .max-w-screen-xl {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0.65rem 0rem; /* sm:px-6 */
+}
+
+footer img {
+    margin-right: 0.75rem; /* mr-3 */
+    height: 2.5rem; /* h-10 */
+    width: auto;
+}
+
+footer h2 {
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: 700; /* font-bold */
+    color: #fff; /* text-white */
+}
+
+footer p {
+    margin-top: 1rem; /* mt-4 */
+    color: #a0aec0; /* text-gray-400 */
+   
+}
+
+footer a {
+    color: #e2e8f0; /* text-gray-200 */
+    transition: opacity 0.2s;
+}
+
+footer a:hover {
+    opacity: 0.75;
+}
+
+footer a.view-more {
+    color: #377dff;
+}
+
+/* Form Styles */
+footer form {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+footer form .relative {
+    max-width: 16rem; /* Reduced width */
+    flex-grow: 1; /* Take remaining space */
+    margin-left: 30rem; /* Add some space between input and button */
+}
+footer form input {
+    width: 100%;
+    padding: 0.2rem; /* Reduced padding */
+    padding-right: 6rem; /* Reduced padding */
+    background-color: #edf2f7; /* bg-gray-100 */
+    border: 1px solid #e2e8f0; /* border-gray-200 */
+    border-radius: 9999px; /* rounded-full */
+    font-size: 0.75rem; /* Reduced font size */
+    font-weight: 500; /* font-medium */
+    outline: none;
+}
+footer form button {
+    padding: 0.5rem 1rem; /* Reduced padding */
+    background-color: #2563eb; /* bg-blue-600 */
+    color: #fff; /* text-white */
+    border-radius: 9999px; /* rounded-full */
+    font-size: 0.75rem; /* Reduced font size */
+    font-weight: 500; /* font-medium */
+    transition: background-color 0.2s;
+}
+/* Responsive Styles */
+@media (max-width: 640px) {
+    footer form {
+        flex-direction: column; /* Stack items vertically */
+    }
+    footer form .relative {
+        max-width: 100%; /* Full width for smaller screens */
+        margin-left: 0; /* No margin for smaller screens */
+        margin-bottom: 1rem; /* Add some space between input and button */
+    }
+}
+
+/* List Styles */
+footer ul {
+    list-style: none;
+    margin-top: 1.5rem; /* mt-6 */
+    space-y: 1rem; /* space-y-4 */
+}
+
+footer ul li a {
+    transition: opacity 0.2s;
+}
+
+footer ul li a.view-more {
+    color: #377dff; /* text-[#377DFF] */
+}
+
+/* Social Icons */
+footer .social-icons a {
+    transition: color 0.2s;
+}
+
+footer .social-icons a:hover {
+    color: #1877f2; /* hover:text-[#1877F2] */
+}
+
+footer .social-icons a.instagram:hover {
+    color: #e4405f; /* hover:text-[#E4405F] */
+}
+
+footer .social-icons a.twitter:hover {
+    color: #1da1f2; /* hover:text-[#1DA1F2] */
+}
+
+footer .social-icons a.github:hover {
+    color: #333; /* hover:text-[#333333] */
+}
+
+footer .social-icons a.youtube:hover {
+    color: #ff0000; /* hover:text-[#FF0000] */
+}
+
+/* Border Top */
+footer .border-t {
+    border-top: 1px solid #2d3748; /* border-gray-800 */
+    padding-top: 2rem; /* pt-8 */
+}
+
+/* Text Sizes */
+footer .text-xs {
+    font-size: 0.75rem; /* text-xs */
+    color: #a0aec0; /* text-gray-400 */
+}
+
+/* Responsive Styles */
+@media (min-width: 1024px) {
+    footer .lg\\:flex {
+        display: flex;
+    }
+    
+    footer .lg\\:items-start {
+        align-items: flex-start;
+    }
+    
+    footer .lg\\:gap-8 {
+        gap: 2rem; /* gap-8 */
+    }
+    
+    footer .lg\\:mt-0 {
+        margin-top: 0;
+    }
+    
+    footer .lg\\:grid-cols-5 {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    footer .lg\\:gap-y-16 {
+        row-gap: 4rem; /* gap-y-16 */
+    }
+    
+    footer .lg\\:items-end {
+        align-items: flex-end;
+    }
+    
+    footer .lg\\:justify-end {
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 640px) {
+    footer .sm\\:px-6 {
+        padding-left: 1.5rem; /* px-6 */
+        padding-right: 1.5rem; /* px-6 */
+    }
+    
+    footer .sm\\:justify-between {
+        justify-content: space-between;
+    }
+    
+    footer .sm\\:mt-0 {
+        margin-top: 0;
+    }
+    
+    footer .sm\\:flex {
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) {
+    footer .sm\\:col-span-1 {
+        grid-column: span 1 / span 1;
+    }
+}
